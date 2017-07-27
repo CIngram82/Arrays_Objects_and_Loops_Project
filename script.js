@@ -26,7 +26,7 @@ function smallNums(){
     // Your answer here:
     for (var i = 0; i < numbers.length; i++) {
     if (numbers[i] < 10) {
-    smallNums[(smallNums.length)] = numbers[i];
+    smallNums.push(numbers[i]);
     }
   }
   return smallNums;
